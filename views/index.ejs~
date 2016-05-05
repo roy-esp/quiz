@@ -5,7 +5,7 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   <ul>
-   <li><a href="author.ejs">Authors</a></li>
+   <li><a href="author">Authors</a></li>
   </ul>
   </head>
   <body>
