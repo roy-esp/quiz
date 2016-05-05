@@ -11,13 +11,8 @@ router.get('/author', function(req, res, next) {
   res.render('author', { title: 'Author' });
 });
 
-router.get('/question', function(req, res, next) {
-  res.render('quizzes/question', { question: 'Capital de Italia' });
-});
+router.get('/question', quiz_controller.question);
 
-router.get('/check', function(req, res, next) {
-  var result=req.query.answer=== 'Roma' ? 'Correcta' : 'Incorrecta';
-  res.render('quizzes/result', { result: result });
-});
+router.get('/check', quiz_controller.check);
 
 module.exports = router;
