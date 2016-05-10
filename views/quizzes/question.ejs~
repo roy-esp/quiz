@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="./public/favicon.ico" type="image/x-icon"/>
+    <title>Quiz</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  
+  </head>
+  <body>
+<h1>Quiz</h1>
+    <form method="get" action="/check">
+	<p>Pregunta <%=question %></p>
+	<input type="text" name="answer" value="" placeholder="Responda aquí"/>
+	<input type="submit" value="Comprobar">
+  </body>
+</html>

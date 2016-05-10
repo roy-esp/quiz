@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="./public/favicon.ico" type="image/x-icon"/>
+    <title>Results</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  
+  </head>
+  <body>
+    <h1>Quiz</h1>
+	<p>La respuesta es <%= result %>. </p>
+	<p> <a href="question">Inténtalo de nuevo</a></p>
+  </body>
+</html>
