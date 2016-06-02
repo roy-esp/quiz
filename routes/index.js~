@@ -11,8 +11,8 @@ router.get('/author', function(req, res, next) {
   res.render('author', { title: 'Author' });
 });
 
-router.get('/question', quizController.question);
+router.get('/question', quiz_controller.question);
 
-router.get('/check', quizController.check);
+router.get('/check', quiz_controller.check);
 
 module.exports = router;

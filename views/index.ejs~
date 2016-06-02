@@ -11,5 +11,6 @@
   <body>
     <h1>Bienvenido a <%= title %></h1>
     <p>Portal para crear juegos</p>
+    <p><a href="/question">Comience a jugar<a> </p>
   </body>
 </html>
